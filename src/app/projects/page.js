@@ -4,8 +4,72 @@ export default function Projects() {
   return (
     <div>
       <h1 className="text-center">PROJECTS</h1>
+      
       <div>
-        <h5 className="text-center text-2xl">
+        <h5 className="flex flex-col text-center text-2xl p-3">
+          <a href="https://food-court-group-2-6mbz.vercel.app/">
+            BiteScape Food Court
+          </a>
+        </h5>
+        <div className="flex justify-around gap-10">
+          <div className="space-y-4">
+            <h2 className="text-center text-xl">Description</h2>
+            <p>
+              Bitescape is a food discovery web app that reimagines how users
+              find meals — not by restaurant, but by mood, aesthetic, or
+              cravings. Whether you’re vegan, trying something spicy, or just
+              want “comfort food” on a rainy day, Bitescape filters local food
+              options based on your vibe. It's designed with a clean UI for
+              quick browsing and powered by a flexible search/filter engine.
+            </p>
+            <h2 className="text-center text-xl">Tech Stack</h2>
+            <p>
+              Frontend: React / Next.js, Tailwind CSS Backend: Flask / Node.js
+              (pick one), PostgreSQL or MongoDB Auth: JWT or Firebase Auth (if
+              used) APIs: Google Places, Spoonacular, or custom data (update
+              this if you used external APIs)
+            </p>
+            <h2 className="text-center text-xl">Key Features</h2>
+            <p>
+              Mood-based and dietary preference filters (e.g. “cozy,” “vegan,”
+              “budget-friendly”) Mobile-first design for foodies on the go
+              Real-time search and filtering system Option to favorite or
+              bookmark dishes (Optional) User profiles and saved food picks Dark
+              mode 🌚 and light mode ☀️ support
+            </p>
+            <h2 className="text-center text-xl">Challenges and Learnings</h2>
+            <p>
+              This project taught me how to structure scalable filtering systems
+              for UX-first discovery experiences. I focused on responsive UI,
+              accessibility, and intuitive navigation. Connecting frontend
+              filters to backend queries and optimizing data loading was a
+              technical challenge that improved my understanding of performance
+              optimization in React + Flask-based stacks.
+            </p>
+            <h2 className="text-center text-xl">Future Plans</h2>
+            <p>
+              Integrate location-based results (e.g. “near me” feature) Add
+              reviews or taste tags from users Build a recommendation system
+              using user behavior Launch a progressive web app (PWA) version
+            </p>
+          </div>
+          {/* <div className="bg-amber-300 w-full"> */}
+            <img
+              src="/images/Bitescape.png"
+              alt="Bitescape image"
+              width={650}
+              height={1800}
+              // className="w-full h-auto max-h-[500px] object-cover rounded-md"
+              className="bg-amber-300 w-1/2"
+            />
+          {/* </div> */}
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div>
+        <h5 className="text-center text-2xl p-3">
           <a href="https://hanzi-flashcards.vercel.app/">Hanzi Flashcards</a>
         </h5>
         <div className="flex justify-around gap-10">
@@ -54,69 +118,6 @@ export default function Projects() {
               Add spaced repetition (SRS) functionality Expand to HSK 3–6 User
               dashboard with revision stats Add audio pronunciation support
             </p>
-          </div>
-        </div>
-
-        <br />
-        <br />
-        <br />
-      </div>
-      <div>
-        <h5>
-          <a href="https://food-court-group-2-6mbz.vercel.app/">
-            BiteScape Food Court
-          </a>
-        </h5>
-        <div className="flex justify-around gap-10">
-          <div className="space-y-4">
-            <h2 className="text-center text-xl">Description</h2>
-            <p>
-              Bitescape is a food discovery web app that reimagines how users
-              find meals — not by restaurant, but by mood, aesthetic, or
-              cravings. Whether you’re vegan, trying something spicy, or just
-              want “comfort food” on a rainy day, Bitescape filters local food
-              options based on your vibe. It's designed with a clean UI for
-              quick browsing and powered by a flexible search/filter engine.
-            </p>
-            <h2 className="text-center text-xl">Tech Stack</h2>
-            <p>
-              Frontend: React / Next.js, Tailwind CSS Backend: Flask / Node.js
-              (pick one), PostgreSQL or MongoDB Auth: JWT or Firebase Auth (if
-              used) APIs: Google Places, Spoonacular, or custom data (update
-              this if you used external APIs)
-            </p>
-            <h2 className="text-center text-xl">Key Features</h2>
-            <p>
-              Mood-based and dietary preference filters (e.g. “cozy,” “vegan,”
-              “budget-friendly”) Mobile-first design for foodies on the go
-              Real-time search and filtering system Option to favorite or
-              bookmark dishes (Optional) User profiles and saved food picks Dark
-              mode 🌚 and light mode ☀️ support
-            </p>
-            <h2 className="text-center text-xl">Challenges and Learnings</h2>
-            <p>
-              This project taught me how to structure scalable filtering systems
-              for UX-first discovery experiences. I focused on responsive UI,
-              accessibility, and intuitive navigation. Connecting frontend
-              filters to backend queries and optimizing data loading was a
-              technical challenge that improved my understanding of performance
-              optimization in React + Flask-based stacks.
-            </p>
-            <h2 className="text-center text-xl">Future Plans</h2>
-            <p>
-              Integrate location-based results (e.g. “near me” feature) Add
-              reviews or taste tags from users Build a recommendation system
-              using user behavior Launch a progressive web app (PWA) version
-            </p>
-          </div>
-          <div>
-            <img
-              src="/images/Bitescape.png"
-              alt="Bitescape image"
-              width={1800}
-              height={1800}
-              className="rounded xl"
-            />
           </div>
         </div>
       </div>
