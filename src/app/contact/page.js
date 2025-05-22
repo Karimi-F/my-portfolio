@@ -78,7 +78,7 @@ export default function Contact () {
             
           </div>
           <div className="p-4 w-1/2">
-            <form className="p-4  bg-slate-800 rounded-xl">
+            <form className="p-4 bg-slate-800 rounded-xl">
               <input
                 className="bg-slate-900 rounded-lg p-3 w-3/4"
                 type="text"
@@ -93,14 +93,14 @@ export default function Contact () {
               />
               <br />
               <br />
-              <input
+              <textarea
                 className="bg-slate-900 rounded-lg p-3 w-3/4"
                 type="text"
                 placeholder="Enter Your Message Subject"
               />
               <br />
               <br />
-              <input
+              <textarea
                 className="bg-slate-900 rounded-lg p-3 py-7 w-3/4"
                 type="text"
                 placeholder="Enter Your Message"
