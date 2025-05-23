@@ -54,15 +54,19 @@ export default function Projects() {
             </p>
           </div>
           {/* <div className="bg-amber-300 w-full"> */}
-            <img
+            {/* <img
               src="/images/Bitescape.png"
               alt="Bitescape image"
               width={650}
               height={1800}
               // className="w-full h-auto max-h-[500px] object-cover rounded-md"
               className="bg-amber-300 w-1/2"
-            />
+            /> */}
           {/* </div> */}
+          <img 
+          src="/images/Bitescape Mobile.jpg"
+          alt="Bitescape on Mobile device"
+          />
         </div>
       </div>
       <br/>
