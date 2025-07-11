@@ -51,7 +51,7 @@ export default function NavBar({ onNavigate }) {
               className="cursor-pointer hover:text-gray-300"
               onClick={() => {
                 onNavigate(item);
-                setMenuOpen(false); // Close menu on selection
+                setMenuOpen(false); 
               }}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
